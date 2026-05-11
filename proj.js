@@ -6,7 +6,7 @@ function changePic() {
     }
 }
 const username = "Username";
-const password = "1234567890password";
+const password = "asimplepassword";
 function logAccount() {
     let userName = document.getElementById("username").value;
     let passWord = document.getElementById("password").value;
