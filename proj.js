@@ -5,7 +5,7 @@ function changePic() {
         profilePic.src = URL.createObjectURL(picFile.files[0])
     }
 }
-const user = "Username";
+const username = "Username";
 const password = "1234567890password";
 function logAccount() {
     let userName = document.getElementById("username").value;
