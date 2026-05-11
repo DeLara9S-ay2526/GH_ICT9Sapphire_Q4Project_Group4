@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+
+     <!-- BOOTSTRAP CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- BOOTSTRAP JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="OBMC LOGO 2024-Circle.png" alt="Logo" height="50px" width=""> OB Montessori Center
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dashboard-section">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#vnotebooks-section">Vritual Notebooks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tasks-section">Tasks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#profile-section">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#logout-section">Logout</a>
+                    </li>
+                    </ul>
+                    </li>
+
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="text" placeholder="Search">
+                        <button class="btn btn-primary" type="button">Search</button>
+                    </form>
+
+                </ul>
+
+
+            </div>
+
+    </nav>
+    
+<div class="container col-md-10 p-3 mt-4 bg-dark text-light rounded-3">
+    <h2 class="mb-4">Assigned Tasks</h2>
+    <div class="d-flex flex-wrap gap-3 justify-content-center">
+
+        <div class="card text-dark" style="width: 320px;">
+            <div class="card-header bg-primary text-white pt-3 pb-5">
+                <p>Assessment</p>
+                <h5 class="card-title">Homework 1</h5>
+            </div>
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-6"><p>30 Questions</p></div>
+                        <div class="col-3 text-muted"><p>20 mins</p></div>
+                        <div class="col-3 text-danger"><p>Closed</p></div>
+                    </div>
+                    <p class="card-text mb-1">Date Start: January 5, 1967 7:20 AM</p>
+                    <p class="card-text mb-4">Date End: January 5, 1967 7:40 AM</p>
+                    <div class="text-center">
+                        <a href="#" class="btn btn-outline-primary w-100">Finished</a>
+                    </div>
+                </div>
+        </div>
+
+        <div class="card text-dark" style="width: 320px;">
+            <div class="card-header bg-primary text-white pt-3 pb-5">
+                <p>Assessment</p>
+                <h5 class="card-title">Homework 2</h5>
+            </div>
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-6"><p>15 Questions</p></div>
+                        <div class="col-3 text-muted"><p>20 mins</p></div>
+                        <div class="col-3 text-danger"><p>Closed</p></div>
+                    </div>
+                    <p class="card-text mb-1">Date Start: February 28, 1967 8:15 AM</p>
+                    <p class="card-text mb-4">Date End: March 5, 1967 7:08 AM</p>
+                    <div class="text-center">
+                        <a href="#" class="btn btn-outline-primary w-100">View Result</a>
+                    </div>
+                </div>
+        </div>
+
+        <div class="card text-dark" style="width: 320px;">
+            <div class="card-header bg-primary text-white pt-3 pb-5">
+                <p>Assessment</p>
+                <h5 class="card-title">Homework 3</h5>
+            </div>
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-6"><p>30 Questions</p></div>
+                        <div class="col-3 text-muted"><p>20 mins</p></div>
+                        <div class="col-3 text-danger"><p>Closed</p></div>
+                    </div>
+                    <p class="card-text mb-1">Date Start: March 10, 1967 7:15 AM</p>
+                    <p class="card-text mb-4">Date End: March 10, 1967 7:35 AM</p>
+                    <div class="text-center">
+                        <a href="#" class="btn btn-outline-primary w-100">Finished</a>
+                    </div>
+                </div>
+        </div>
+
+        <div class="card text-dark" style="width: 320px;">
+            <div class="card-header bg-primary text-white pt-3 pb-5">
+                <p>Assessment</p>
+                <h5 class="card-title">Homework 4</h5>
+            </div>
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-6"><p>20 Questions</p></div>
+                        <div class="col-3 text-muted"><p>15 mins</p></div>
+                        <div class="col-3 text-danger"><p>Closed</p></div>
+                    </div>
+                    <p class="card-text mb-1">Date Start: April 1, 1967 9:00 AM</p>
+                    <p class="card-text mb-4">Date End: April 1, 1967 9:15 AM</p>
+                    <div class="text-center">
+                        <a href="#" class="btn btn-outline-primary">Finished</a>
+                    </div>
+                </div>
+        </div>
+
+        <div class="card text-dark" style="width: 320px;">
+            <div class="card-header bg-primary text-white pt-3 pb-5">
+                <p>Assessment</p>
+                <h5 class="card-title">Homework 5</h5>
+            </div>
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-6"><p>10 Questions</p></div>
+                        <div class="col-3 text-muted"><p>10 mins</p></div>
+                        <div class="col-3 text-danger"><p>Closed</p></div>
+                    </div>
+                    <p class="card-text mb-1">Date Start: May 5, 1967 10:00 AM</p>
+                    <p class="card-text mb-4">Date End: May 5, 1967 10:10 AM</p>
+                    <div class="text-center">
+                        <a href="#" class="btn btn-outline-primary w-100">Finished</a>
+                    </div>
+                </div>
+        </div>
+
+        <div class="card text-dark" style="width: 320px;">
+            <div class="card-header bg-primary text-white pt-3 pb-5">
+                <p>Assessment</p>
+                <h5 class="card-title">Homework 6</h5>
+            </div>
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-6"><p>50 Questions</p></div>
+                        <div class="col-3 text-muted"><p>60 mins</p></div>
+                        <div class="col-3 text-danger"><p>Closed</p></div>
+                    </div>
+                    <p class="card-text mb-1">Date Start: June 10, 1967 8:00 AM</p>
+                    <p class="card-text mb-4">Date End: June 10, 1967 9:00 AM</p>
+                    <div class="text-center">
+                        <a href="#" class="btn btn-outline-primary w-100">Finished</a>
+                    </div>
+                </div>
+        </div>
+
+    </div>
+</div>
+</div>
+</div>
+`</div>
+</body>
+</html>
