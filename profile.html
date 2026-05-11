@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white text-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="OBMC LOGO 2024-Circle.png" alt="logo" height="50px" width="50px">
+            </a>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-10">
+                    <li class="nav-item">
+                        <a class="nav-link" href="dashboard.html">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="notebooks.html">Virtual Notebooks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tasks.html">Tasks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Logout</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </form>
+            </div>
+            <button class="nabvar-toggler d-block d-lg-none bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <div class="container col-md-9 bg-white text-dark">
+        <div class="container col-md-3">
+            <div class="profile-container">
+                <h2>Profile Picture</h2>
+                <div class="image">
+                    <img src="defaultpfp.jpg" alt="User Profile" class="profile-pic" style="width: 150px; height: 150px; border-radius: 50%;">
+                </div>
+                <form>
+                    <p>Change Profile Picture:</p>
+                    <input type="file" accept="image/jpeg, image/jpg, image/png" id="profile-pic" onclick="changePic()" class="pfp">
+                </form>
+            </div>
+        </div>
+        <div class="container col-md-3 bg-light text-dark border">
+            <h4>Student ID</h4>
+            <p>SN10540407</p>
+            <h4>Contact Number</h4>
+            <p>+634428338444447777</p>
+            <h4>Email Address</h4>
+            <p>delacruz.jr@obmontessori.edu.ph</p>
+            <h4>Gender</h4>
+            <p>Male</p>
+        </div>
+    </div>
+    <br>
+    <footer class="bg-dark text-light d-flex align-items-center justify-content-center" style="height: 50px;">
+        <p class="text-center">Xyrouz Michael Q. De Lara | &copy2026</p>
+    </footer>
+    <script src="proj.js"></script>
+</body>
+</html>
