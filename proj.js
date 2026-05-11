@@ -8,8 +8,8 @@ function changePic() {
 const user = "Username";
 const password = "1234567890password";
 function logAccount() {
-    let userName = document.getElementById("user").value;
-    let passWord = document.getElementById("pass").value;
+    let userName = document.getElementById("username").value;
+    let passWord = document.getElementById("password").value;
     if (user === userName && password === passWord) {
         window.location.href = "dashboard.html";
     } else {
