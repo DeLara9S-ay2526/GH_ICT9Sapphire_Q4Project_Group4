@@ -12,4 +12,5 @@ function logAccount() {
     let passWord = document.getElementById("password").value;
     if (username === userName && password === passWord) {
         window.location.href = "dashboard.html";
+    }
 }
